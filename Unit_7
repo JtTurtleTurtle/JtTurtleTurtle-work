@@ -1,0 +1,76 @@
+# Project 7 - WordPress Pentesting
+
+Time spent: **X** hours spent in total
+
+> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+
+## Pentesting Report
+
+1. CVE 2015-3440 (AAA vunerability)
+  - [ ] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: Write a bunch of letters so the file is over 64 kb in text to use the exploit in the system
+            ![]AAA_2_.gif]]
+  - [ ] Steps to recreate: Create a file on leafpad to write on and paste this code - <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+  After that you delete the "...[64 kb].." and type a bunch of letters inside so the file is bigger than 64kb. Then you go on the blog post and click on create a comment and paste thise code inside with all the letters and then your done.  
+1. CVE 2015-5622 (href vunerability)
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version:
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: 
+1. (Required) Vulnerability Name or ID
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version:
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: 
+1. (Optional) Vulnerability Name or ID
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version:
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: 
+1. (Optional) Vulnerability Name or ID
+  - [ ] Summary: 
+    - Vulnerability types:
+    - Tested in version:
+    - Fixed in version: 
+  - [ ] GIF Walkthrough: 
+  - [ ] Steps to recreate: 
+
+## Assets
+
+List any additional assets, such as scripts or files
+
+## Resources
+
+- [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
+- [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+
+GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Describe any challenges encountered while doing the work
+
+## License
+
+    Copyright [yyyy] [name of copyright owner]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

@@ -12,23 +12,28 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: Write a bunch of letters so the file is over 64 kb in text to use the exploit in the system
-            ![]AAA_2_.gif]]
+            ![]AAA_2_.gif]] Link - https://github.com/JtTurtleTurtle/JtTurtleTurtle-work/blob/master/Jeremy_Tanimi_Wordpress_Assignment1.gif
   - [ ] Steps to recreate: Create a file on leafpad to write on and paste this code - <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
   After that you delete the "...[64 kb].." and type a bunch of letters inside so the file is bigger than 64kb. Then you go on the blog post and click on create a comment and paste thise code inside with all the letters and then your done.  
 1. CVE 2015-5622 (href vunerability)
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Summary:
+    - Vulnerability types:XSS
+    - Tested in version:4.2.2
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: After going through the first assignment you can sign in. When you sign in paste this code in a text- <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
+  after that you publish it and then there is a link and when you hover over/click it a window will pop up.
+  Link - 
+  - [ ] Steps to recreate: Go to this website(https://klikki.fi/adv/wordpress3.html) and copy this code(<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>)
+  After that you should already be signed in after the 1st assignment and publish the code in text on the website
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types:XSS
+    - Tested in version:4.5.3
+    - Fixed in version: 4.6.1
+  - [ ] GIF Walkthrough: Get a picture and paste this code at the top and then click add media and add picture 
+  Link - 
+  - [ ] Steps to recreate: Get a picture and paste this code at the top and then click add media and add picture.
+  You get the code by going to this website(https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html) and the code is this - cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

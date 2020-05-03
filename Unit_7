@@ -22,7 +22,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: After going through the first assignment you can sign in. When you sign in paste this code in a text- <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
   after that you publish it and then there is a link and when you hover over/click it a window will pop up.
-  Link - 
+  Link - https://github.com/JtTurtleTurtle/JtTurtleTurtle-work/blob/master/Jeremy_Tanami_Wordpress_Assignment2.gif
   - [ ] Steps to recreate: Go to this website(https://klikki.fi/adv/wordpress3.html) and copy this code(<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>)
   After that you should already be signed in after the 1st assignment and publish the code in text on the website
 1. (Required) Vulnerability Name or ID

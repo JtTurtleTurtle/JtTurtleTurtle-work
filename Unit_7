@@ -31,7 +31,7 @@ Time spent: **X** hours spent in total
     - Tested in version:4.5.3
     - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: Get a picture and paste this code at the top and then click add media and add picture 
-  Link - 
+  Link - https://github.com/JtTurtleTurtle/JtTurtleTurtle-work/blob/master/Jeremy_Tanami_Wordpress_Assignment3.gif
   - [ ] Steps to recreate: Get a picture and paste this code at the top and then click add media and add picture.
   You get the code by going to this website(https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html) and the code is this - cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg
 1. (Optional) Vulnerability Name or ID
